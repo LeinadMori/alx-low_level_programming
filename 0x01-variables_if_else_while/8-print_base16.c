@@ -15,7 +15,7 @@ int main(void)
 	d = '0';	
 	while
 		(d < 10) {
-			putchar(d + '0');
+			putchar(d);
 			d++;
 		}
 	while
@@ -24,5 +24,5 @@ int main(void)
 			c++;
 		}
 	putchar('\n');
-	return (0);
-}	
+	return (0) 
+} 
