@@ -1,10 +1,6 @@
-#include <studio.h>
+#ifndef PI_H
+#define PI_H
 
 #define PI 3.14159265359
 
-int main (void)
-{
-	double areaofcircle = PI * 10 * 10;
-	printf("Area=%lf", areaofcircle);
-	return (0);
-}
+#endif
